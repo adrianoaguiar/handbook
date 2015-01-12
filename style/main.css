@@ -1,3 +1,11 @@
+/* FOUC */
+[data-markdown] {
+    display: none;
+}
+[data-markdown].show {
+    display: block;
+}
+
 /* HEADER */
 
 .navbar-brand {
