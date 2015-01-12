@@ -5,64 +5,76 @@
     <title>VTEX Lab Handbook</title>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/tortin.css"/>
     <link rel="stylesheet" href="style/main.css"/>
 </head>
 <body>
-<div class="container">
-    <header class="header " id="header">
-        <div class="container" id="header-container">
-            <div class="row">
-                <div class="navbar-header col-md-2">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="/" class="navbar-brand">VTEX Lab</a>
-                </div>
-                <div class="col-md-10">
-                    <nav class="collapse navbar-collapse" id="nav">
-                        <ul class="nav navbar-nav">
-
-                            <li><a href="#">Home</a></li>
-
-                            <li><a href="#vtex">A VTEX</a></li>
-
-                            <li><a href="#cultura">Cultura</a></li>
-
-                            <li><a href="#arquitetura">Arquitetura</a></li>
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="jumbotron">
-        <h1>Somos o VTEX Lab</h1>
-
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget
-            quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-            condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
+<div class="hero">
+    <div class="container">
+        <header>
+            <h1>VTEX Lab <small>Handbook</small></h1>
+            <h2>Um guia do que é o VTEX Lab</h2>
+            <br/>
+        </header>
     </div>
-</div> <!-- /container -->
-<div class="container" id="vtex" data-markdown>
-    ## I'm in ur HTML
+</div>
 
-    **markin it down**
-</div> <!-- /container -->
-<div class="container" id="cultura">
-</div> <!-- /container -->
-<div class="container" id="arquitetura">
-</div> <!-- /container -->
-<div class="container" id="footer">
-    <footer class="footer">
-        <p>&copy; VTEX 2015</p>
-    </footer>
-</div> <!-- /container -->
+<div class="clipper"></div>
+
+<section class="content">
+    <div class="container">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#vtex">O que é VTEX</a></li>
+            <li><a href="#cultura">Cultura</a></li>
+            <li><a href="#arquitetura">Arquitetura</a></li>
+        </ul>
+        <hr>
+    </div>
+    <div class="container" id="vtex" data-markdown>
+        ## O que é a VTEX
+
+        <hr>
+    </div> <!-- /container -->
+    <div class="container" id="cultura" data-markdown>
+        ## Cultura
+
+        <hr>
+    </div> <!-- /container -->
+    <div class="container" id="arquitetura" data-markdown>
+        ## Arquitetura
+
+        <hr>
+    </div> <!-- /container -->
+</section>
+
+<div class="clipper-footer"></div>
+
+<footer>
+    <div class="container">
+        <div class="pull-left">
+            <a href="http://lab.vtex.com.br" title="Designed and maintained by VTEX Lab and contributors">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="32" height="32" xml:space="preserve" viewbox="0 0 100 100" class="logo">
+              <circle cx="50" cy="49" r="44" class="circle"/>
+              <polygon points="59.9 28.3 75.5 28.3 50 81.6 42.2 65.2" class="polygon v-bigger"/>
+              <polygon points="39.7 60.1 24.5 28.2 40.1 28.2 47.6 43.7" class="polygon"/>
+            </svg>
+            </a>
+        </div><!-- logo -->
+
+        <div class="pull-left">
+            <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="//platform.twitter.com/widgets/follow_button.1403226798.html#_=1403800489144&amp;id=twitter-widget-1&amp;lang=en&amp;screen_name=vtexlab&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 237px; height: 20px;"></iframe>
+        </div><!-- twitter -->
+
+        <div class="pull-left">
+            <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a> and documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        </div><!-- license -->
+
+        <div class="pull-right">
+            <a href="http://vtex.github.io/tortin">Get <strong>Tortin</strong> Theme</a>
+        </div><!-- please? -->
+    </div>
+</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
 <script src="script/data-markdown.js"></script>
