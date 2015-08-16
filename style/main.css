@@ -1,23 +1,22 @@
 /* FOUC */
 [data-markdown] {
-    display: none;
+  display: none;
 }
 [data-markdown].show {
-    display: block;
+  display: block;
 }
 
 /* HEADER */
 .hero {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 /* LIST */
-ul {
-    list-style: none;
-    padding: 0;
+ul li a {
+  color: #2499b6;
 }
 
-ul li a {
-    color: #2499b6;
-    font-size: 150%;
+
+p, li  {
+  font-size: 1.3em;
 }
